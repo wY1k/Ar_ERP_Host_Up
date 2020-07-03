@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Ar_Host.exe" version="1.0.0.167" publicKeyToken="606c0dc3d3d3a870" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Ar_Host.exe" version="1.0.0.168" publicKeyToken="606c0dc3d3d3a870" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="oxygen_72px_41227_easyicon.net.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -42,26 +42,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ar_ERPModel.dll" size="169472">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ar_ERPModel.dll" size="169984">
       <assemblyIdentity name="Ar_ERPModel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>/lZdDkmnaU4vCSgIz96HhGgo1x2z4MId2mf0XGNdgaE=</dsig:DigestValue>
+        <dsig:DigestValue>KgDntwJq2G7nLLt09yvnwy/XEw11e4GNdtvfVMjPyxg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ar_ERPService.dll" size="180224">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ar_ERPService.dll" size="181760">
       <assemblyIdentity name="Ar_ERPService" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>JG5cM/bTGVAKq65m3kXVsqOow5eWSPnWd/7BlSv3KAA=</dsig:DigestValue>
+        <dsig:DigestValue>UBvjG9Aa7krTv1FdLraTqBXY2BzhnqoQuH4lLxenKXo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -73,7 +73,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tKt24clvdFeb2u4XLgm5x6fb4nsDWPMklg+7+0pf8Uc=</dsig:DigestValue>
+        <dsig:DigestValue>PigyKgo2cZ0v+lcW1O5YOEjhkqvK0Dx9sP6LxSYCQ4o=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -136,4 +136,4 @@
       <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
     </application>
   </compatibility>
-<publisherIdentity name="CN=AR\Thxhtp" issuerKeyHash="538212d7cc85c24a1f88ac190e8440b4b6c9f3f4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>rz0ZT2nhM8a5EyC2oAT/rgINJtA=</DigestValue></Reference></SignedInfo><SignatureValue>ttXOFS76EFappEu+UbWhbLOPBXGntK6XoIlG+lum/0+wyxfVhEdst0ztGHGdP+0RjZgL9KQizjL/3+TjXjadOPb/32b+wLJg8UMFsSQNBAVMgX31V4aZpiPnd66S5FE3nROH8lMm7pgEmkYZ+mWoFZcCraVvCDBflOKx93xOGms=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vlXgfX6f0Xs0jtLiJ4wX13Qyg9qh3xYuO6F8S6/+WFs2wNp38WPxRPgem9k9Xce6UlAxlGQvKRkf4ajJ+e770VwUXIZDOx5tnAyW0kCfKov6P6ezpCV+0n+0oSxQWez+keY6FazdE9jZLVGYYKVj3mc2bcRPiDy2eLjWK4O+WN0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d0260d02aeff04a0b62013b9c633e1694f193daf" Description="" Url=""><as:assemblyIdentity name="Ar_Host.exe" version="1.0.0.167" publicKeyToken="606c0dc3d3d3a870" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AR\Thxhtp</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>dxeOEHM4s3RxoxfbFvUCSxQ/G80=</DigestValue></Reference></SignedInfo><SignatureValue>psjwoNstfZ4oSK85Vm11lxnNTtbIruKmi7Fz8cBqH0y0QFTmKhh5ReOl0WN3pRotwLNxPLEllvwtnmxb3b6/BIoGKbi3pOB467Z6asGn7wKaAw0+S+mPM0rPF96TEF1gmge7d1L9JH0sBYyjuGBdmH8NIYLPRbE27XJ0CC+Y668=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vlXgfX6f0Xs0jtLiJ4wX13Qyg9qh3xYuO6F8S6/+WFs2wNp38WPxRPgem9k9Xce6UlAxlGQvKRkf4ajJ+e770VwUXIZDOx5tnAyW0kCfKov6P6ezpCV+0n+0oSxQWez+keY6FazdE9jZLVGYYKVj3mc2bcRPiDy2eLjWK4O+WN0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvzCCASigAwIBAgIQQO7sK4T8k7JMBbLekwTIzjANBgkqhkiG9w0BAQUFADAdMRswGQYDVQQDHhIAQQBSAFwAVABoAHgAaAB0AHAwIBcNMTgxMDIzMDI1MzQxWhgPMjExODEwMjMwMjUzNDFaMB0xGzAZBgNVBAMeEgBBAFIAXABUAGgAeABoAHQAcDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvlXgfX6f0Xs0jtLiJ4wX13Qyg9qh3xYuO6F8S6/+WFs2wNp38WPxRPgem9k9Xce6UlAxlGQvKRkf4ajJ+e770VwUXIZDOx5tnAyW0kCfKov6P6ezpCV+0n+0oSxQWez+keY6FazdE9jZLVGYYKVj3mc2bcRPiDy2eLjWK4O+WN0CAwEAATANBgkqhkiG9w0BAQUFAAOBgQCxNa4Cvf5Z6mO9GE4D72AwbpVHofQ+eUe2QPE91OV6aNm4U/wlk3YSqsXw+lGcQJtWyYwqLZaSUoWlzLkHCJo3CVd7vtwR8pmgAc7EAxfF7fd42kDOgHwMmxqMD2L7FBJw8U6okciWoCpuFmLGBE9j+paoxP4AsbEYHtFR4c/z/g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=AR\Thxhtp" issuerKeyHash="538212d7cc85c24a1f88ac190e8440b4b6c9f3f4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>KNmKh66/rnQDWhtHzSYfwTGNEgc=</DigestValue></Reference></SignedInfo><SignatureValue>qTOlBDty2wvVXYCH2CMDlev/a/im7uhpSfkathzWn38SLvVA/+kTN+m+9ej/qGpDi8xlziqfsPd4jtK0Jq1V/HreJg7dVnDvzqFywI0/ggyk7D7WOHYjZHMBCrRCmkXvEqVy+Q1m5/0UN7T4NdJTSClJW3tLOg2oLsxKwiMjBJ4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vlXgfX6f0Xs0jtLiJ4wX13Qyg9qh3xYuO6F8S6/+WFs2wNp38WPxRPgem9k9Xce6UlAxlGQvKRkf4ajJ+e770VwUXIZDOx5tnAyW0kCfKov6P6ezpCV+0n+0oSxQWez+keY6FazdE9jZLVGYYKVj3mc2bcRPiDy2eLjWK4O+WN0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="07128d31c11f26cd471b5a0374aebfae878ad928" Description="" Url=""><as:assemblyIdentity name="Ar_Host.exe" version="1.0.0.168" publicKeyToken="606c0dc3d3d3a870" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AR\Thxhtp</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>rlClBtx9YTAl3NhB4j7j7Rz+UHo=</DigestValue></Reference></SignedInfo><SignatureValue>SYbAewJV69Jp5c6d/n3tgmYIllivyvNkfPq/A3kCArkPuZhkNoo0WvrbiqNSa6ViVD4GGYSHbBuZhiFIJvI3DkbjHriFgPe4th6lOOWc8DTt/H6G7lTFCFFCEKL+r7gX9muYrbz+SzWttRq2tKGbrLJa1kAX/UpAYDgZzYDl6T4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vlXgfX6f0Xs0jtLiJ4wX13Qyg9qh3xYuO6F8S6/+WFs2wNp38WPxRPgem9k9Xce6UlAxlGQvKRkf4ajJ+e770VwUXIZDOx5tnAyW0kCfKov6P6ezpCV+0n+0oSxQWez+keY6FazdE9jZLVGYYKVj3mc2bcRPiDy2eLjWK4O+WN0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvzCCASigAwIBAgIQQO7sK4T8k7JMBbLekwTIzjANBgkqhkiG9w0BAQUFADAdMRswGQYDVQQDHhIAQQBSAFwAVABoAHgAaAB0AHAwIBcNMTgxMDIzMDI1MzQxWhgPMjExODEwMjMwMjUzNDFaMB0xGzAZBgNVBAMeEgBBAFIAXABUAGgAeABoAHQAcDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvlXgfX6f0Xs0jtLiJ4wX13Qyg9qh3xYuO6F8S6/+WFs2wNp38WPxRPgem9k9Xce6UlAxlGQvKRkf4ajJ+e770VwUXIZDOx5tnAyW0kCfKov6P6ezpCV+0n+0oSxQWez+keY6FazdE9jZLVGYYKVj3mc2bcRPiDy2eLjWK4O+WN0CAwEAATANBgkqhkiG9w0BAQUFAAOBgQCxNa4Cvf5Z6mO9GE4D72AwbpVHofQ+eUe2QPE91OV6aNm4U/wlk3YSqsXw+lGcQJtWyYwqLZaSUoWlzLkHCJo3CVd7vtwR8pmgAc7EAxfF7fd42kDOgHwMmxqMD2L7FBJw8U6okciWoCpuFmLGBE9j+paoxP4AsbEYHtFR4c/z/g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
